@@ -17,16 +17,5 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.1",
     "nodemon": "^1.18.11"
-  },
-  "nodemonConfig":{
-    "restartable":"rs",
-    "ignore":[
-      "node_modules/**/node_modules"
-    ],
-    "delay":"2500",
-    "env":{
-      "NODE_ENV":"development",
-      "PORT":4000
-    }
   }
 }

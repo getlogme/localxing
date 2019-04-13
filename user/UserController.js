@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var VerifyToken = require(__root + 'auth/VerifyToken');
 
 router.use(bodyParser.urlencoded({ extended: true }));
-var User = require('/user');
+var User = require('./User');
 
 // CREATES A NEW USER
 router.post('/', function (req, res) {
